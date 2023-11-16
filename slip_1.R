@@ -5,3 +5,4 @@ print(a)
 print(paste(max(a)))
 
 print(paste(min(a)))
+.

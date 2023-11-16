@@ -1,0 +1,5 @@
+a=c(1,6,3,4)
+b=c(4,6,9,2)
+z=data.frame(a,b)
+unique.matrix(z)
+duplicated(z)

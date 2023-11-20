@@ -1,4 +1,4 @@
-a = list("File","Edit","Code","View","Plots","Session","Build","Debug","Profile","Tools")
+a = list("a","b","c","d","e","f","g","h","i","j")
 
 print(a)
 

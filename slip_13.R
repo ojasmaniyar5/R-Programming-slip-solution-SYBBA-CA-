@@ -1,18 +1,7 @@
-data(iris)
+a=factor(c(1,2,3,4,5))
+b=factor(c(0,9,8,7,6))
 
-a = iris
+x=factor(c(a,b))
+print(x)
 
-y = a[sample(1:nrow(a),10),5]
-plot(y)
-
-b = density(a$Sepal.Length)
-plot(b)
-
-bb = density(a$Sepal.Width)
-plot(bb)
-
-bbb = density(a$Petal.Length)
-plot(bbb)
-
-bbbb = density(a$Petal.Width)
-plot(bbbb)
+print(order(x, decreasing = TRUE))

@@ -1,7 +1,8 @@
 a=c(1,2,3,4)
-b=matrix(c(1,2,3,4,5,6),nrow=2)
-c=LETTERS[1:5]
+b=c(5,6,7,8,9,10)
+c=c(1,2,3)
 
-x=list(a,b,c)
+aa=array(c(a,b),dim=c)
+print(aa)
 
-print(x)
+print(aa[2,,2])
